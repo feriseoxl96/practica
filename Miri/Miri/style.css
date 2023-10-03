@@ -1,0 +1,101 @@
+/*Practica Flex Content*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: block;
+}
+
+header{
+    display: block;
+    background-color: #e6dff0;
+}
+
+.header-container{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    padding: 18px 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.logo-container img{
+
+    width: 120px;
+
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.menu a{
+
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.width-container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+    height: 800px;
+    padding: 60px 24px;
+}
+
+.secondary-button{
+    padding: 20px 36px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.secondary-button p{
+    font-family: 'Inter', sans-serif;
+    font: 600;
+    font-size: 20px;
+    color: black;
+}
+
+.secondary-button:hover{
+    background-color: black;
+    
+}
+
+.secondary-button:hover p{
+    color:  white;
+    
+}
+
