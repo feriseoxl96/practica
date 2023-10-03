@@ -1,0 +1,56 @@
+/*Practica Flex Content*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: block;
+    background-color: #a87bc7;                                  /* Color fondo */
+}
+
+.container_h{                                                     /* div del contendor del header */
+    max-width: 1400px ;                                           /* Altura máxima */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18px 24px;                                           /* Padding o acolchado interno recomendado */
+    margin-left: auto;                                            /* Margen izquierda */
+    margin-right: auto;                                           /* Margen derecha */
+}
+
+.container_m{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;                               /* Justificado de contenido */
+    align-items: center;
+    gap: 40px;                                                    /* Separación */
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 24;
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /* Fuentes Familia Segoe UI */
+    color: black;                                                /* Color de letra */
+    font-size: 20px;                                               /* Tamaño de Fuente */   
+    font-weight: 200;                     
+}
+
+.two-b{
+    padding: 20px 36px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 14px;
+}
+
+.two-b p{
+    font-family: 'Courier New', Courier, monospace;
+    font: 600;
+    font-size: 30px;
+    color: black;
+}

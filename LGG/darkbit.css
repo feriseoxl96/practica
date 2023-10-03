@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: 15151E;
+}
+
+header{
+    display: block;
+    background-color: 2B2B3B;                                     /* Color fondo */
+    margin-top: 68px;
+    margin-left: 88px;
+    margin-right: 67px;
+    border-radius: 51px;
+}
+
+.container_h{                                                     /* div del contendor del header */
+    max-width: 1400px ;                                           /* Altura máxima */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18px 24px;                                           /* Padding o acolchado interno recomendado */
+    margin-left: auto;                                            /* Margen izquierda */
+    margin-right: auto;                                           /* Margen derecha */
+}
+
+.container-lo{
+    padding-left: 34px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+.container_m{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;                               /* Justificado de contenido */
+    align-items: center;
+    padding-left: 45px;
+    gap: 90px;                                                    /* Separación */
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 24;
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /* Fuentes Familia Segoe UI */
+    color: black;                                                /* Color de letra */
+    font-size: 20px;                                               /* Tamaño de Fuente */   
+    font-weight: 200;                     
+}
+
+.two-b{
+    /*padding: 20px 36px;*/
+    border-radius: 27.5px;
+    background: var(--Correction, linear-gradient(90deg, #2A90FF 10.95%, #2F6DFF 22.4%, rgba(53, 84, 255, 0.91) 38.52%, rgba(144, 56, 240, 0.99) 52.45%, #EB2F61 80.33%, rgba(236, 49, 92, 0.99) 80.34%, rgba(251, 94, 5, 0.88) 100%));
+    /*border: 2px solid black;*/
+    width: 149px;
+    height: 55px;
+    flex-shrink: 0;
+}
+
+.two-b p{
+    font-family: 'Inter', semi-bold;
+    font-size: 16px;
+    color: FFFFFF;
+    text-align: center;
+}
