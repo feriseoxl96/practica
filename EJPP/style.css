@@ -1,0 +1,95 @@
+/*
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+header{
+display: flex;
+height: 70px;
+justify-content: space-between;
+align-items: center;
+}
+.logo{
+display: flex;
+align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px ;
+}
+#header a{
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 2px;
+}
+#header a:hover{
+    background: linear-gradient(45deg, white, rgb(2445,14,122));
+    color: thistle;
+}
+*/
+
+/*Practica Flex Content*/
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: block;
+    background-color: rgb(133, 59, 133);
+}
+.header-container{
+    max-width: 1340;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    padding: 15px 20px;
+    }
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.menu a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 350px;
+}
+.btn-1{
+    padding: 15px 25px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;    
+}
+.btn-1 p{
+    font-family: 'Times New Roman', Times, serif;
+    font: 500;
+    font-size: 15px;
+    color: black;
+}
+.btn-1:hover{
+    background-color: blanchedalmond;
+}
+.btn-1:hover p{
+    color: black;
+}
